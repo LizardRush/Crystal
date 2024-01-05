@@ -6,12 +6,13 @@ Crystal is a programming language that is similar to python, 'Hello World!' Exam
 log('Hello World!')
 ```
 
-All libs must contain:
+You can make your own libs but all libs must contain:
 ```python
 class Actions:
   def yourAction():
-    print('Hello World!') # this is an example, you can change dhe function name and its actions to anything you want
+    print('Hello World!') # this is an example, you can change the function name and its actions to anything you want
 actions = {
   'youraction': Actions.yourAction, # also an example, you can change the command name or add more functions
 }
 ```
+`Actions class` and `Actions variables` are required
